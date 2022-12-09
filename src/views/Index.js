@@ -45,13 +45,8 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <Images />
-<<<<<<< HEAD
           {/* <BasicElements />
           <Navbars /> */}
-=======
-          {/* <BasicElements /> */}
-          {/* <Navbars /> */}
->>>>>>> eb32f031ea967e447659fa9ab247c9ab2474eba6
           <Tabs />
           {/* <Pagination /> */}
           {/* <Notifications /> */}
