@@ -15,7 +15,7 @@ function DarkFooter() {
                 href="https://www.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                Creative Tim
+                Ananya Medical Agency
               </a>
             </li>
             <li>
@@ -31,25 +31,18 @@ function DarkFooter() {
                 href="http://blog.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                Blog
+                ananyamedicalagency@gmail.com
               </a>
             </li>
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
-          <a
-            href="https://www.invisionapp.com?ref=nukr-dark-footer"
-            target="_blank"
-          >
-            Invision
-          </a>
-          . Coded by{" "}
+          © {new Date().getFullYear()}, Designed by{" "} 
           <a
             href="https://www.creative-tim.com?ref=nukr-dark-footer"
             target="_blank"
           >
-            Creative Tim
+            Anurag Ojha & Amit Dhakite
           </a>
           .
         </div>

@@ -24,7 +24,7 @@ const items = [
     caption: "Somewhere Beyond, United States"
   },
   {
-    src: require("assets/img/bg4.jpg"),
+    src: require("assets/img/bg2.jpg"),
     altText: "Yellowstone National Park, United States",
     caption: "Yellowstone National Park, United States"
   }

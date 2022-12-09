@@ -14,24 +14,18 @@ import { Container, Row, Col } from "reactstrap";
 
 export default function App(props) {
   return (
-    <Col sm="5" style={{marginBottom: "100px"}}>
+    <Col sm="5" style={{marginBottom: "80px"}}>
     <MDBCard>
       <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
       <MDBCardBody>
         <MDBCardTitle>{props.Name}</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+          {props.Salt}
         </MDBCardText>
       </MDBCardBody>
       <MDBListGroup flush>
-        <MDBListGroupItem>Cras justo odio</MDBListGroupItem>
-        <MDBListGroupItem>Dapibus ac facilisis in</MDBListGroupItem>
-        <MDBListGroupItem>Vestibulum at eros</MDBListGroupItem>
+        {props.Salts.map(e => <MDBListGroupItem><p style={{fontWeight:"bold"}}>{e.Salt_name}</p>  {e.Description}</MDBListGroupItem>)}
       </MDBListGroup>
-      <MDBCardBody>
-        <MDBCardLink href='#'>Card link</MDBCardLink>
-        <MDBCardLink href='#'>Card link</MDBCardLink>
-      </MDBCardBody>
     </MDBCard>
     </Col>
   );
