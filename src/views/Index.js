@@ -1,3 +1,4 @@
+
 import React from "react";
 
 // reactstrap components
@@ -44,18 +45,23 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <Images />
+<<<<<<< HEAD
           {/* <BasicElements />
           <Navbars /> */}
+=======
+          {/* <BasicElements /> */}
+          {/* <Navbars /> */}
+>>>>>>> eb32f031ea967e447659fa9ab247c9ab2474eba6
           <Tabs />
-          <Pagination />
-          <Notifications />
+          {/* <Pagination /> */}
+          {/* <Notifications /> */}
           <Typography />
-          <Javascript />
+          {/* <Javascript /> */}
           <Carousel />
           <NucleoIcons />
-          <CompleteExamples />
-          <SignUp />
-          <Examples />
+          {/* <CompleteExamples /> */}
+          {/* <SignUp /> */}
+          {/* <Examples /> */}
           <Download />
         </div>
         <DarkFooter />
