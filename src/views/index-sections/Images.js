@@ -8,14 +8,14 @@ import { Container, Row, Col } from "reactstrap";
 function Images() {
   return (
     <>
-      <div className="section section-images">
+      <div className="section section-images" style = {{marginBottom:"-200px"}}>
         <Container>
           <Row>
             <Col md="12">
-              <div className="hero-images-container">
+              <div className="hero-images-container" style = {{borderRadius:"10%"}}>
                 <img
                   alt="..."
-                  src={require("assets/img/i1.jpg")}
+                  src={require("assets/img/i2.png")}
                 ></img>
               </div>
               <div className="hero-images-container-1">
