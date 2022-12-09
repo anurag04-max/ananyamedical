@@ -35,6 +35,7 @@ function IndexHeader() {
         <Container>
           <div className="content-center brand">
             <img
+              style={{height:"80px", width: "800px"}}
               alt="..."
               className="n-logo"
               src={require("assets/img/now-logo.png")}

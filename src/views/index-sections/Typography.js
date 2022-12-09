@@ -111,7 +111,7 @@ function Typography() {
           <div className="space-50"></div>
           <div id="images">
             <Row style={{justifyContent: "space-between"}}>
-              {Products.map(e => <Cards Name={e.Name}/>)}
+              {Products.map(e => <Cards Name={e.Name} Salt={e.Salt} Salts={e.Salts}/>)}
             </Row>
           </div>
         </Container>
