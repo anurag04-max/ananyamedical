@@ -15,7 +15,7 @@ function DarkFooter() {
                 href="https://www.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                Ananya Medical Agency
+                Ananya Health Care
               </a>
             </li>
             <li>
@@ -31,7 +31,7 @@ function DarkFooter() {
                 href="http://blog.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                ananyamedicalagency@gmail.com
+                ananyahealthcare@gmail.com
               </a>
             </li>
           </ul>

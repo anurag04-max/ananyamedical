@@ -58,7 +58,7 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              Ananya Medical Agency
+              Ananya Health Care
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               Designed by Invision. Coded by Creative Tim
