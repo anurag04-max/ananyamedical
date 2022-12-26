@@ -98,6 +98,7 @@ function Typography() {
     {
         Name: "ANPA-40",
         Salt: "Pantoprazole 40 mg",
+        ind: 4,
         Salts: [
             {
                 Salt_name: "Pantoprazole",
@@ -109,7 +110,7 @@ function Typography() {
 ];
   return (
     <>
-      <div className="section">
+      <div className="section"   id="download-section">
         <Container>
           <h3 className="title">Products</h3>          
           <div className="space-50"></div>

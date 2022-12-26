@@ -13,7 +13,7 @@ import { Container, Row, Col } from "reactstrap";
 import _0 from '../../assets/img/Trampil.jpeg';
 import _2 from '../../assets/img/Cefopod_cv.jpeg';
 import _3 from '../../assets/img/Cefopod_100.jpeg';
-import _4 from '../../assets/img/Trampil.jpeg';
+import _4 from '../../assets/img/anpa-40.jpeg';
 import _1 from '../../assets/img/Ace-ps.jpeg';
 
 export default function App(props) {
