@@ -40,7 +40,7 @@ function IndexHeader() {
               className="n-logo"
               src={require("assets/img/now-logo.png")}
             ></img>
-            <h1 className="h1-seo">Ananya Medical Agency.</h1>
+            <h1 className="h1-seo">Ananya Health Care.</h1>
             <h3>One place for all your medical needs</h3>
           </div>
           {/* <h6 className="category category-absolute">

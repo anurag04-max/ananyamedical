@@ -6,21 +6,19 @@ import { Container } from "reactstrap";
 
 function DarkFooter() {
   return (
-    <footer className="footer" data-background-color="black">
+    <footer className="footer" data-background-color="black" id="about-section">
       <Container>
         <nav>
           <ul>
             <li>
               <a
-                href="https://www.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
-                Ananya Medical Agency
+                Ananya Health Care
               </a>
             </li>
             <li>
               <a
-                href="http://presentation.creative-tim.com?ref=nukr-dark-footer"
                 target="_blank"
               >
                 About Us
@@ -28,10 +26,10 @@ function DarkFooter() {
             </li>
             <li>
               <a
-                href="http://blog.creative-tim.com?ref=nukr-dark-footer"
+                href="mailto:ananyamedicalagency@gmail.com"
                 target="_blank"
               >
-                ananyamedicalagency@gmail.com
+                ananymedicalagency@gmail.com
               </a>
             </li>
           </ul>
@@ -39,7 +37,6 @@ function DarkFooter() {
         <div className="copyright" id="copyright">
           © {new Date().getFullYear()}, Designed by{" "} 
           <a
-            href="https://www.creative-tim.com?ref=nukr-dark-footer"
             target="_blank"
           >
             Anurag Ojha & Amit Dhakite

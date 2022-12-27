@@ -16,17 +16,17 @@ const items = [
   {
     src: require("assets/img/bg1.jpg"),
     altText: "Nature, United States",
-    caption: "Nature, United States"
+    caption: ""
   },
   {
     src: require("assets/img/bg3.jpg"),
     altText: "Somewhere Beyond, United States",
-    caption: "Somewhere Beyond, United States"
+    caption: ""
   },
   {
     src: require("assets/img/bg2.jpg"),
-    altText: "Yellowstone National Park, United States",
-    caption: "Yellowstone National Park, United States"
+    altText: "",
+    caption: ""
   }
 ];
 
@@ -58,7 +58,7 @@ function CarouselSection() {
       <div className="section" id="carousel">
         <Container>
           <div className="title">
-            <h4>Carousel</h4>
+            <h4>Time and health are two precious assets that we don't recognize and appreciate until they have been depleted.</h4>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
